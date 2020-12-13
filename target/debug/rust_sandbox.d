@@ -1,0 +1,1 @@
+/home/artur/Desktop/rust/target/debug/rust_sandbox: /home/artur/Desktop/rust/src/arrays.rs /home/artur/Desktop/rust/src/main.rs /home/artur/Desktop/rust/src/print.rs /home/artur/Desktop/rust/src/string.rs /home/artur/Desktop/rust/src/tuples.rs /home/artur/Desktop/rust/src/types.rs /home/artur/Desktop/rust/src/vars.rs
