@@ -1,8 +1,18 @@
 pub fn run() {
-    // immutable fixed length
-    let _hello_exe = "Hello";
+    // immutable(exepxcions) fixed length
+    // stored in heap
+    let hello_exe = "Hello";
+    let world = "World";
 
+    // mutable
     let mut hello = String::from("Hello");
+
+    // &str -> String
+    let s = hello_exe.to_string();
+    let _sexe2 = "String exapmple".to_string();
+    let _sexe3 = String::from(world);
+
+    let _str_from_string: &str = &world;
 
     println!("length: {}", hello.len());
 
@@ -37,4 +47,28 @@ pub fn run() {
 
     println!("{}", hello);
 
-}
+    // let test = "first" + "second";
+    let combine_string_literals = ["first", "second"].concat();
+    let format_marco = format!("{} {}", "first", "second");
+
+    // string must be first;
+    let string_plus_str = s + world;
+
+    let mut mut_string = String::new();
+    mut_string.push_str("Some hardcoded literal");
+    mut_string.push('m');
+
+    let str_from_substring: &str = &world[0..2];
+    let str_from_substring2: &str = &world[0..=2];
+
+    let char_by_index = &world.chars().nth(1);
+
+    match char_by_index {
+        Some(c) => println!("Found a char {}", c),
+        None => {}
+    }
+
+    if let Some(c) = world.chars().nth(2) {
+        println!("Found a char {}", c);
+    }
+;}

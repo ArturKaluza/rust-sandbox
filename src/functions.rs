@@ -19,3 +19,10 @@ fn greeting(greet: &str, name: &str) {
 fn add(n1: i32, n2: i32) -> i32 {
     n1 + n2
 }
+
+fn some_function(par_a: f32, par_b: i128) -> f32 {
+    // 10 as f32;
+    // 10f32
+    // 10_f32
+    10.
+}
