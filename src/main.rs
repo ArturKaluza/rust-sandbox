@@ -13,6 +13,7 @@ mod structs;
 mod enums;
 mod cli;
 mod generics;
+mod borrowing;
 
 fn main() {
     // print::run();
@@ -29,5 +30,7 @@ fn main() {
     // structs::run();
     // enums::run();
     // cli::run();
-    generics::run();
+    // generics::run();
+    borrowing::run();
+
 }
